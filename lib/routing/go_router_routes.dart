@@ -1,5 +1,8 @@
 enum GoRouterRoutes {
-  loginScreen(routeName: '/login');
+  loginScreen(routeName: '/login'),
+  recommendationPage(routeName: '/home'),
+  searchPage(routeName: '/search'),
+  libraryPage(routeName: '/library');
 
   final String routeName;
 

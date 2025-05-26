@@ -1,3 +1,19 @@
 {
-  "appName": "Testyfy"
+  "appName": "Testyfy",
+  "aboutPageButton": "About",
+  "searchBarHintHome": "Search",
+  "recommendationsAppbarLabel": "Recommendations",
+  "searchAppbarLabel": "Search",
+  "libraryAppbarLabel": "Your Library",
+  "loginButtonSpotify": "Connect with Spotify",
+  "authFail": "Auth failed",
+  "authDeny": "Auth denied",
+  "spotifyDevelopmentMode": "Auth failed: The Spotify API requires users to be added to a development mode API allow list",
+  "signOff": "Sign Off",
+  "genericError": "Error",
+  "genericNoData": "There are no items",
+  "searchResultArtist": "Artist",
+  "searchResultAlbum": "Album",
+  "searchResultTrack": "Track",
+  "filterByHint": "Filter by"
 }

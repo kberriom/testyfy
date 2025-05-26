@@ -5,7 +5,7 @@ publish_to: 'none'
 version: 1.0.0
 
 environment:
-  sdk: ^3.6.0
+  sdk: ^3.7.0
 
 dependencies:
   flutter:
@@ -14,13 +14,23 @@ dependencies:
   flutter_riverpod: ^2.6.1
   riverpod_annotation: ^2.6.1
   flutter_secure_storage: ^9.2.4
+  url_launcher: ^6.3.1
+  http: ^1.2.1
+  get_it: ^8.0.3
+  spotify: ^0.13.7
   flutter_localizations:
     sdk: flutter
   intl: any
+  freezed_annotation: ^3.0.0
+  json_annotation: ^4.9.0
+  dart_mappable: ^4.5.0
+  marquee: ^2.3.0
+
+dependency_overrides:
   # dart sdk issue #60784 workaround
   analyzer: 7.3.0
   analyzer_plugin: 0.13.0
-
+  custom_lint_visitor: 1.0.0+7.3.0
 
 dev_dependencies:
   flutter_test:
@@ -30,7 +40,15 @@ dev_dependencies:
   riverpod_lint: ^2.6.4
   build_runner: ^2.4.15
   riverpod_generator: ^2.6.5
+  freezed: ^3.0.6
+  json_serializable: ^6.9.5
+  dart_mappable_builder: ^4.5.0
 
 flutter:
   generate: true
   uses-material-design: true
+
+  assets:
+    - assets/logo.png
+    - assets/Spotify_Full_Logo_RGB_Green.png
+    - assets/Spotify_Primary_Logo_RGB_White.png

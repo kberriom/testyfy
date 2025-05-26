@@ -100,6 +100,102 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Testyfy'**
   String get appName;
+
+  /// No description provided for @aboutPageButton.
+  ///
+  /// In en, this message translates to:
+  /// **'About'**
+  String get aboutPageButton;
+
+  /// No description provided for @searchBarHintHome.
+  ///
+  /// In en, this message translates to:
+  /// **'Search'**
+  String get searchBarHintHome;
+
+  /// No description provided for @recommendationsAppbarLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Recommendations'**
+  String get recommendationsAppbarLabel;
+
+  /// No description provided for @searchAppbarLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Search'**
+  String get searchAppbarLabel;
+
+  /// No description provided for @libraryAppbarLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Your Library'**
+  String get libraryAppbarLabel;
+
+  /// No description provided for @loginButtonSpotify.
+  ///
+  /// In en, this message translates to:
+  /// **'Connect with Spotify'**
+  String get loginButtonSpotify;
+
+  /// No description provided for @authFail.
+  ///
+  /// In en, this message translates to:
+  /// **'Auth failed'**
+  String get authFail;
+
+  /// No description provided for @authDeny.
+  ///
+  /// In en, this message translates to:
+  /// **'Auth denied'**
+  String get authDeny;
+
+  /// No description provided for @spotifyDevelopmentMode.
+  ///
+  /// In en, this message translates to:
+  /// **'Auth failed: The Spotify API requires users to be added to a development mode API allow list'**
+  String get spotifyDevelopmentMode;
+
+  /// No description provided for @signOff.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign Off'**
+  String get signOff;
+
+  /// No description provided for @genericError.
+  ///
+  /// In en, this message translates to:
+  /// **'Error'**
+  String get genericError;
+
+  /// No description provided for @genericNoData.
+  ///
+  /// In en, this message translates to:
+  /// **'There are no items'**
+  String get genericNoData;
+
+  /// No description provided for @searchResultArtist.
+  ///
+  /// In en, this message translates to:
+  /// **'Artist'**
+  String get searchResultArtist;
+
+  /// No description provided for @searchResultAlbum.
+  ///
+  /// In en, this message translates to:
+  /// **'Album'**
+  String get searchResultAlbum;
+
+  /// No description provided for @searchResultTrack.
+  ///
+  /// In en, this message translates to:
+  /// **'Track'**
+  String get searchResultTrack;
+
+  /// No description provided for @filterByHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Filter by'**
+  String get filterByHint;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

@@ -1,3 +1,19 @@
 {
-  "appName": "Testyfy"
+  "appName": "Testyfy",
+  "aboutPageButton": "Ver licencias",
+  "searchBarHintHome": "Buscar",
+  "recommendationsAppbarLabel": "Recomendaciones",
+  "searchAppbarLabel": "Buscar",
+  "libraryAppbarLabel": "Tu biblioteca",
+  "loginButtonSpotify": "Vincular a Spotify",
+  "authFail": "Error al vincular cuenta Spotify",
+  "authDeny": "Vinculación negada",
+  "spotifyDevelopmentMode": "Error al vincular cuenta Spotify: La API de Spotify requiere registro previo para proyectos en Development Mode",
+  "signOff": "Cerrar sesión",
+  "genericError": "Error",
+  "genericNoData": "No hay items",
+  "searchResultArtist": "Artista",
+  "searchResultAlbum": "Album",
+  "searchResultTrack": "Canción",
+  "filterByHint": "Filtros"
 }
